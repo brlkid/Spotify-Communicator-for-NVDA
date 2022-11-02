@@ -11,7 +11,7 @@ if spotify==None:
             spotify = child
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
-    @script(gesture="kb:NVDA+t", description = "Reports the title of the currently playing Spotify song if the Spotify app is running")
+    @script(gesture="kb:NVDA+shift+t", description = "Reports the title of the currently playing Spotify song if the Spotify app is running")
     def script_getSongTitle(self, gesture):
         if spotify==None or spotify.name==None: 
             ui.message("Spotify linking failed. Either start the Spotify app, or press ctrl+NVDA+f3 to reload linking.")

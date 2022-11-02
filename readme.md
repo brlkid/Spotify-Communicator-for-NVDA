@@ -9,4 +9,6 @@ commands:
 NVDA+t: This will read the name of the currently playing Spotify track. 
 
 note: the addon will inform the user if the Spotify app is not detected. If this is the case, one must start the Spotify app, then either press NVDA+CTRL+f3 or restart NVDA to allow the addon to reload the detection of Spotify. 
+note: If linking is successful, but there is no song playing, either Spotify or Spotify premium (according to your subscription level) will be announced. In future versions, this should be fixed, however for now that indicates that no song or media is playing. 
+
 
